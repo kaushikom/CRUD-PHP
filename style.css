@@ -1,0 +1,33 @@
+/* css reset */
+*, *::before, *::after {
+box-sizing: border-box;
+}
+
+img, picture, svg, video {
+display: block;
+max-width: 100%;
+}
+
+input, textarea, button, select {
+font: inherit;
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+min-height: 100vh;
+}
+input:focus{
+    outline: none;
+}
+.input-group{
+    width: 50%;
+}
+.no-focus-outline:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: inherit !important;
+}
